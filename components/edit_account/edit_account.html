@@ -1,0 +1,52 @@
+<div id="edit_account_panel" class="profile-panel hide">
+	<div class="container">
+		<h4>Edit Account</h4>
+		<div class="row">
+			<form id="form_edit_account" method="POST" class="col s12">
+				<input type="hidden" id="account_id" name="account_id">
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="edit_firstname" name="firstname" type="text" autocomplete="off">
+						<label for="edit_firstname">Firstname</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="edit_lastname" name="lastname" type="text" autocomplete="off">
+						<label for="edit_lastname">Lastname</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="edit_username" name="username" type="text" autocomplete="off">
+						<label for="edit_username">Username</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="edit_password" name="password" type="password">
+						<label for="edit_password">Password</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="edit_confirm_password" type="password">
+						<label for="edit_confirm_password">Confirm Password</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12">
+						<button class="btn waves-effect waves-light w-100">Update Account</button>
+					</div>
+				</div>
+			</form>
+			<div class="col s12">
+				<div class="row">
+					<div class="col s12">
+						<button id="cancel_edit_account" class="btn waves-effect waves-light w-100">Cancel</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

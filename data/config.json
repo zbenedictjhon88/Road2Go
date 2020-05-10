@@ -1,0 +1,10 @@
+{
+	"account" : {
+		"id" : null,
+		"firstname" : null,
+		"lastname" : null,
+		"username" : null,
+		"password" : null,
+		"role" : null
+	}
+}
